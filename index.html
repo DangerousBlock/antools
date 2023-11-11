@@ -15,230 +15,252 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
 <body>
-    <header>
-        <a href=""><img src="img/antools-logo.png" alt="Something went wrong...">antools.</a>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Categories</a></li>
-                <li><a href="">My Collections</a></li>
-                <li><a href="">Blog</a></li>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+        <a href="" class="header-logo"><img src="img/antools-logo.png" alt="Something went wrong..." class="logo-img">antools.</a>
+        <!-- Навигация -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Home</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Categories</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">My Collections</a></li>
+                <li class="nav-list-item"><a href="#" class="nav-list-link">Blog</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><button>Login</button></li>
-            <li><button>Sign Up</button></li>
+        <ul class="auth-list">
+            <li class="auth-list-item"><button class="auth-list-btn">Login</button></li>
+            <li class="auth-list-item"><button class="auth-list-btn">Sign Up</button></li>
         </ul>
+    </div>
     </header>
-
+<!-- Основа -->
     <main>
-        <section>
-            <h1>Awesome tools for Designer & Developer<span>.</span></h1>
-            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-            <div>
-                <img src="img/search.png" alt="Something went wrong...">
-                <input type="text">
-                <button>Search</button>
-            </div>
-            <ul>
-                <li><a href=""><img src="img/facebook.png" alt="Something went wrong..." width="58px" height="58px"></a></li>
-                <li><a href=""><img src="img/instagram.png" alt="Something went wrong..." width="58px" height="58px"></a></li>
-                <li><a href=""><img src="img/twitter.png" alt="Something went wrong..." width="58px" height="58px"></a></li>
+        <!-- Секция герой -->
+        <section class="hero">
+            <div class="container">
+            <h1 class="hero-title">Awesome tools for Designer & Developer<span>.</span></h1>
+            <p class="hero-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
+            <form action="" class="hero-form">
+                <input type="text" class="hero-form-input" placeholder="find more than 430+ tools...">
+                <button class="hero-form-btn">Search</button>
+            </form>
+            <ul class="socials-list">
+                <li class="socials-list-item"><a href="" class="socials-list-link"><img src="img/facebook.png" alt="Something went wrong..." width="58px" height="58px" class="socials-list-img"></a></li>
+                <li class="socials-list-item"><a href="" class="socials-list-link"><img src="img/instagram.png" alt="Something went wrong..." width="58px" height="58px" class="socials-list-img"></a></li>
+                <li class="socials-list-item"><a href="" class="socials-list-link"><img src="img/twitter.png" alt="Something went wrong..." width="58px" height="58px" class="socials-list-img"></a></li>
             </ul>
-            <div><img src="img/header-right.png" alt="Something went wrong..."></div>
-        </section>
-        <section>
-            <h2>Most Popular Tools</h2>
-            <p>Tools for the best Designers and Developers most popularly used in the world</p>
-            <ul>
-                <li>
-                    <img src="img/figma.png" alt="Something went wrong...">
-                    <h3>Figma</h3>
-                    <p>Free</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/sketch.png" alt="Something went wrong...">
-                    <h3>Sketch</h3>
-                    <p>Trial & Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/visual-studio.png" alt="Something went wrong...">
-                    <h3>Visual Studio Code</h3>
-                    <p>Free</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/notion.png" alt="Something went wrong...">
-                    <h3>Notion</h3>
-                    <p>Free & Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/slack.png" alt="Something went wrong...">
-                    <h3>Slack</h3>
-                    <p>Free & Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/invision.png" alt="Something went wrong...">
-                    <h3>Invision</h3>
-                    <p>Free & Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-            </ul>
-            <button>Load more</button>
-        </section>
-
-        <section>
-            <h4>Trusted more than 150+ brand</h4>
-            <ul>
-                <li><img src="img/logos_microsoft.png" alt="Something went wrong..."></li>
-                <li><img src="img/logos_google.png" alt="Something went wrong..."></li>
-                <li><img src="img/logos_slack.png" alt="Something went wrong..."></li>
-                <li><img src="img/logos_wordpress.png" alt="Something went wrong..."></li>
-            </ul>
-        </section>
-
-        <section>
-            <h5>Newcomer Tools</h5>
-            <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button>Explore more</button>
-            <ul>
-                <li>
-                    <img src="img/zeplin.png" alt="Something went wrong...">
-                    <h6>Zeplin</h6>
-                    <p>Free & Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/PHPStorm.png" alt="Something went wrong...">
-                    <h6>PHPStorm</h6>
-                    <p>Free</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/toolbox.png" alt="Something went wrong...">
-                    <h6>Toolbox</h6>
-                    <p>Free</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-                <li>
-                    <img src="img/procreate.png" alt="Something went wrong...">
-                    <h6>Procreate</h6>
-                    <p>Paid</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="img/like.png" alt="Something went wrong..."></li>
-                        <li><img src="img/folder.png" alt="Something went wrong..."></li>
-                    </ul>
-                    <button>Visit</button>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <img src="" alt="Something went wrong...">
-            <img src="" alt="Something went wrong...">
-            <div>
-                <h4>Ronald Richards</h4>
-                <p>Product Manager</p>
-            </div>
-            <div></div>
-            <p>Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-            <img src="" alt="Something went wrong...">
-            <ul>
-                <li><span></span></li>
-                <li><span></span></li>
-                <li><span></span></li>
-            </ul>
-        </section>
-        <section>
-            <h5></h5>
-            <p></p>
-        <div>
-            <input type="text">
-            <button></button>
         </div>
+        </section>
+        <!-- Приложения -->
+        <section class="tools">
+            <div class="container">
+            <h2 class="tools-title">Most Popular Tools</h2>
+            <p class="tools-desc">Tools for the best Designers and Developers most popularly used in the world</p>
+            <ul class="tools-list">
+                <li class="tools-list-item">
+                    <img src="img/figma.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Figma</h3>
+                    <p class="tools-list-desc">Free</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+                <li class="tools-list-item">
+                    <img src="img/sketch.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Sketch</h3>
+                    <p class="tools-list-desc">Trial & Paid</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+                <li class="tools-list-item">
+                    <img src="img/visual-studio.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Visual Studio Code</h3>
+                    <p class="tools-list-desc">Free</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+                <li class="tools-list-item">
+                    <img src="img/notion.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Notion</h3>
+                    <p class="tools-list-desc">Free & Paid</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+                <li class="tools-list-item">
+                    <img src="img/slack.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Slack</h3>
+                    <p class="tools-list-desc">Free & Paid</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+                <li class="tools-list-item">
+                    <img src="img/invision.png" alt="Something went wrong..." class="tools-list-img">
+                    <h3 class="tools-list-title">Invision</h3>
+                    <p class="tools-list-desc">Free & Paid</p>
+                    <p class="tools-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="tools-list-sublist">
+                        <li class="tools-list-sublist-item"><img src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="tools-list-sublist-item"><img src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="tools-list-btn">Visit</button>
+                </li>
+            </ul>
+            <button class="tools-btn">Load more</button>
+            </div>
+        </section>
+        <!-- Бренды -->
+        <section class="brand">
+            <div class="container">
+            <h4 class="brand-title">Trusted more than 150+ brand</h4>
+            <ul class="brand-list">
+                <li class="brand-list-item"><img class="brand-list-img" src="img/logos_microsoft.png" alt="Something went wrong..."></li>
+                <li class="brand-list-item"><img class="brand-list-img" src="img/logos_google.png" alt="Something went wrong..."></li>
+                <li class="brand-list-item"><img class="brand-list-img" src="img/logos_slack.png" alt="Something went wrong..."></li>
+                <li class="brand-list-item"><img class="brand-list-img" src="img/logos_wordpress.png" alt="Something went wrong..."></li>
+            </ul>
+        </div>
+        </section>
+        <!-- Новые Приложения -->
+        <section class="newcomer">
+            <div class="container">
+            <h5 class="newcomer-title">Newcomer Tools</h5>
+            <p class="newcomer-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+            <button class="newcomer-btn">Explore more</button>
+            <ul class="newcomer-list">
+                <li class="newcomer-list-item">
+                    <img class="newcomer-list-img" src="img/zeplin.png" alt="Something went wrong...">
+                    <h6 class="newcomer-list-title">Zeplin</h6>
+                    <p class="newcomer-list-desc">Free & Paid</p>
+                    <p class="newcomer-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="newcomer-list-sublist">
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="newcomer-list-btn">Visit</button>
+                </li>
+                <li class="newcomer-list-item">
+                    <img class="newcomer-list-img" src="img/PHPStorm.png" alt="Something went wrong...">
+                    <h6 class="newcomer-list-title">PHPStorm</h6>
+                    <p class="newcomer-list-desc">Free</p>
+                    <p class="newcomer-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="newcomer-list-sublist">
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="newcomer-list-btn">Visit</button>
+                </li>
+                <li class="newcomer-list-item">
+                    <img class="newcomer-list-img" src="img/toolbox.png" alt="Something went wrong...">
+                    <h6 class="newcomer-list-title">Toolbox</h6>
+                    <p class="newcomer-list-desc">Free</p>
+                    <p class="newcomer-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="newcomer-list-sublist">
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="newcomer-list-btn">Visit</button>
+                </li>
+                <li class="newcomer-list-item">
+                    <img class="newcomer-list-img" src="img/procreate.png" alt="Something went wrong...">
+                    <h6 class="newcomer-list-title">Procreate</h6>
+                    <p class="newcomer-list-desc">Paid</p>
+                    <p class="newcomer-list-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <ul class="newcomer-list-sublist">
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/like.png" alt="Something went wrong..."></li>
+                        <li class="newcomer-list-sublist-item"><img class="newcomer-list-sublist-img" src="img/folder.png" alt="Something went wrong..."></li>
+                    </ul>
+                    <button class="newcomer-list-btn">Visit</button>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <!-- Менеджер -->
+        <section class="testimonial">
+            <div class="container">
+            <!-- <img class="testimonial-img" src="" alt="Something went wrong..."> -->
+            <img class="testimonial-img" src="" alt="Something went wrong...">
+            <div class="testimonial-team">
+                <h4 class="testimonial-team-title">Ronald Richards</h4>
+                <p class="testimonial-team-desc">Product Manager</p>
+            </div>
+            <div class="testimonial-team-wrap"></div>
+            <p class="testimonial-team-desc">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+            <img class="testimonial-team-img" src="" alt="Something went wrong...">
+            <ul class="testimonial-list">
+                <li class="testimonial-list-item"><span class="testimonial-list-span"></span></li>
+                <li class="testimonial-list-item"><span class="testimonial-list-span"></span></li>
+                <li class="testimonial-list-item"><span class="testimonial-list-span"></span></li>
+            </ul>
+        </section>
+        <!-- Присоединится -->
+        <section class="join">
+            <h5 class="join-title">Become a contributor?</h5>
+            <p class="join-desc">Join us and get tips & tricks to become a great Designer and Developer</p>
+        <div class="join-wrap">
+            <input type="text">
+            <button class="join-wrap-btn">Join Us</button>
+        </div>
+    </div>
         </section>
     </main>
     <!-- Подвал -->
-    <footer>
-        <div>
-        <a href=""><img src="" alt="Something went wrong..."><span>antools.</span></a>
-        <p>Copyright 2021. Antools</p>
-        <p>Antool is a web collection of information on paid or free Design and Development tools</p>
+    <footer class="footer">
+        <div class="container">
+        <a href="" class="footer-logo"><img src="" alt="Something went wrong..." class="logo-img">antools.</a>
+        <div class="footer-wrap-about">
+        <p class="footer-wrap-about-desc">Copyright 2021. Antools</p>
+        <p class="footer-wrap-about-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
         </div>
-        <div>
-            <h6>Contact Us</h6>
-            <address>
-                <ul>
-                    <li><a href="+621987463">+621987463</a></li>
-                    <li><a href="">M Building, No.10 A</a></li>
-                    <li><a href="antools@awesome.com">antools@awesome.com</a></li>
+        <div class="footer-wrap-contact">
+            <h6 class="footer-wrap-contact-title">Contact Us</h6>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-list-item"><a class="address-list-link" href="tell:">+621987463</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="https://www.google.com/maps/place/Building+10,+Cambridge,+MA+02139,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@42.3597157,-71.0945337,17z/data=!3m1!4b1!4m6!3m5!1s0x89e370aa24c2e79d:0xbc31b641b0adc2e9!8m2!3d42.3597118!4d-71.0919588!16s%2Fg%2F1ptwjqm7b?hl=uk-UK&entry=ttu">M Building, No.10 A"</a></li>
+                    <li class="address-list-item"><a class="address-list-link" href="mailto:">antools@awesome.com</a></li>
                 </ul>
             </address>
         </div>
-        <div>
-            <h6>Categories</h6>
-            <p>Design</p>
-            <p>Development</p>
+        <div class="footer-wrap-categories">
+            <h6 class="footer-wrap-categories-title">Categories</h6>
+            <p class="footer-wrap-categories-desc">Design</p>
+            <p class="footer-wrap-categories-desc">Development</p>
         </div>
-        <div>
-            <h6>Company info</h6>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Partners</a></li>
-                <li><a href="#">Blog</a></li>
+        <div class="footer-wrap-info">
+            <h6 class="footer-wrap-info-title">Company info</h6>
+            <ul class="footer-wrap-info-list">
+                <li class="footer-wrap-info-list-item"><a class="footer-wrap-info-list-link" href="#">About Us</a></li>
+                <li class="footer-wrap-info-list-item"><a class="footer-wrap-info-list-link" href="#">Our Partners</a></li>
+                <li class="footer-wrap-info-list-item"><a class="footer-wrap-info-list-link" href="#">Blog</a></li>
             </ul>
         </div>
+    </div>
     </footer>
 </body>
 </html>
