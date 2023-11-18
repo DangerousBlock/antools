@@ -1,0 +1,190 @@
+body{
+    background: rgb(30, 37, 43);
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 26px;
+    padding-bottom: 58px;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.header-logo{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: auto;
+}
+.nav-list{
+    font-size: 16px;
+    display: flex;
+    gap: 45px;
+}
+
+.auth-list{
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+.nav-list-item{
+    color: rgba(255, 255, 255, 0.78);
+    display: flex;
+}
+.auth-list-btn{
+    background-color: rgb(30, 37, 43);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgba(255, 255, 255, 0.78);
+}
+.auth-list-btn-2{
+    background-color: rgba(255, 110, 48, 1);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid rgba(255, 110, 48, 1);
+    border-radius: 10px;
+    color: white;
+}
+.hero-title{
+    font-size: 50px;
+    color: white;
+    margin-top: 108px;
+    margin-bottom: 30px;
+}
+.hero-title-span{
+    color: orange;
+}
+.hero-desc{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 60px;
+}
+.hero-form-btn{
+    font-size: 16px;
+}
+.tools-title{
+    font-size: 48px;
+}
+.tools-desc{
+    font-size: 18px;
+}
+.tools-list-title{
+    font-size: 24px;
+}
+.tools-list-desc{
+    font-size: 18px;
+}
+.tools-list-desc-2{
+    font-size: 16px;
+}
+.tools-list-btn{
+    font-size: 16px;
+    background-color: rgb(30, 37, 43);
+}
+.tools-btn{
+    font-size: 20px;
+}
+.brand-title{
+    font-size: 24px;
+}
+.newcomer-title{
+    font-size: 48px;
+}
+.newcomer-desc{
+    font-size: 18px;
+}
+.newcomer-btn{
+    font-size: 18px;
+    background-color: rgba(255, 110, 48, 1);
+    color: white;
+}
+.newcomer-list-title{
+    font-size: 24px;
+}
+.newcomer-list-desc{
+    font-size: 18px;
+}
+.newcomer-list-desc-2{
+    font-size: 14px;
+}
+.newcomer-list-btn{
+    font-size: 16px;
+}
+.testimonial-team-title{
+    font-size: 26px;
+}
+.testimonial-team-desc{
+    font-size: 16px;
+}
+.testimonial-team-desc-2{
+    font-size: 14px;
+}
+.join-title{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.join-desc{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 25px;
+    text-align: center;
+}
+.join-wrap-btn{
+    background-color: rgba(255, 110, 48, 1);
+    color: white;
+    font-size: 16px;
+}
+.footer-logo{
+    font-size: 22px;
+}
+.footer-wrap-about-desc{
+    font-size: 16px;
+}
+.footer-wrap-about-desc-2{
+    font-size: 14px;
+}
+.footer-wrap-contact-title{
+    font-size: 20px;
+}
+.address-list-link{
+    font-size: 16px;
+}
+.footer-wrap-categories-title{
+    font-size: 20px;
+}
+.footer-wrap-categories-desc{
+    font-size: 16px;
+}
+.footer-wrap-info-title{
+    font-size: 20px;
+}
+.footer-wrap-info-list-link{
+    font-size: 16px;
+}
+input{
+    background-color: rgb(30, 37, 43);
+}
