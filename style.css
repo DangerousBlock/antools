@@ -84,6 +84,10 @@ ul{
 .hero-form-btn{
     font-size: 16px;
 }
+.hero-form-input{
+    background-color: rgba(40, 48, 54, 1);
+    width: 227px;
+}
 .tools-title{
     font-size: 48px;
     display: flex;
