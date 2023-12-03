@@ -1,8 +1,8 @@
 # Currency-Converter App
 
-### [Site link](https://currency-converter-indol-rho.vercel.app/)
+### [Site link]([https://currency-converter-indol-rho.vercel.app/](https://dangerousblock.github.io/antools/))
 
-Layout supports mobile version up to 478px and desktop up to 1440px
+antools.
 
 ### Tech stack:
 
