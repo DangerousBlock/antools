@@ -1,13 +1,13 @@
 # Currency-Converter App
 
-### [Site link]([https://dangerousblock.github.io/antools/])
+### [Site link](https://dangerousblock.github.io/antools/)
 
 antools.
 
 ### Tech stack:
 
 - [HTML](https://github.com/DangerousBlock/antools/blob/main/index.html)
-- Stylling:[Styled-Components](https://styled-components.com/)
+- [Style](https://github.com/DangerousBlock/antools/blob/main/style.css)
 
 
 ### Author
