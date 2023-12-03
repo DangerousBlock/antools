@@ -1,13 +1,12 @@
 # Currency-Converter App
 
-### [Site link]([https://currency-converter-indol-rho.vercel.app/](https://dangerousblock.github.io/antools/))
+### [Site link]([https://dangerousblock.github.io/antools/])
 
 antools.
 
 ### Tech stack:
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [ReactJS](https://reactjs.org/)
+- [HTML](https://github.com/DangerousBlock/antools/blob/main/index.html)
 - Stylling:[Styled-Components](https://styled-components.com/)
 
 
