@@ -121,7 +121,7 @@ ul{
     transition: all 0.3s ease;
 }
 .tools-list-item:hover{
-    background-image: url(/img/tools-list-hover.png);
+    background-image: url(./img/tools-list-hover.png);
     padding-top: 33px;
     padding-left: 33px;
     padding-right: 33px;
@@ -207,7 +207,7 @@ ul{
 .brand{
     padding-top: 55px;
     padding-bottom: 55px;
-    background-image: url(img/brands-bg.png);
+    background-image: url(./img/brands-bg.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -217,8 +217,6 @@ ul{
     padding-left: 82px;
     padding-right: 82px;
 }
-
-
 .newcomer{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -243,7 +241,6 @@ ul{
     font-weight: 500;
     color: rgba(255, 255, 255, 0.9);
 }
-
 .newcomer-desc{
     margin-bottom: 60px;
     font-family: Poppins;
@@ -252,7 +249,6 @@ ul{
     max-width: 427px;
     color: rgba(255, 255, 255, 0.55);
 }
-
 .newcomer-btn{
     width: 198px;
     height: 58px;
@@ -264,12 +260,10 @@ ul{
     background: transparent;
     transition: all 0.3s ease;
 }
-
 .newcomer-btn:hover{
     color: rgba(255, 255, 255, 1);
     background: rgba(255, 110, 48, 1);
 }
-
 .newcomer-list{
     max-width: 700px;
     height: 638px;
@@ -278,19 +272,16 @@ ul{
     column-gap: 50px;
     row-gap: 24px;
 }
-
 .newcomer-list-item{
     max-width: 288px;
     height: 284px;
     border-radius: 15px;
 }
-
 .newcomer-list-wrap{
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
 }
-
 .newcomer-list-title{
     font-family: Poppins;
     font-size: 24px;
@@ -299,7 +290,6 @@ ul{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.78);
 }
-
 .newcomer-list-desc{
     font-family: Poppins;
     font-size: 18px;
@@ -308,7 +298,6 @@ ul{
     letter-spacing: 0em;
     color: rgba(255, 165, 55, 0.55);
 }
-
 .newcomer-list-desc-2{
     max-width: 245px;
     font-family: Poppins;
@@ -318,7 +307,6 @@ ul{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
 }
-
 .newcomer-list-btn{
     width: 106px;
     height: 42px;
@@ -355,7 +343,7 @@ ul{
     transition: all 0.3s ease;
 }
 .newcomer-list-item:hover{
-    background-image: url(/img/tools-list-hover.png);
+    background-image: url(./img/tools-list-hover.png);
     padding-top: 33px;
     padding-left: 33px;
     padding-right: 33px;
@@ -369,25 +357,25 @@ ul{
 
 .sign-before{
     padding: 38px 34px;
-    background-image: url(/img/VectorLeftGray.png);
+    background-image: url(./img/VectorLeftGray.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(30, 37, 43);
     margin-right: 108px;
 }
 .sign-before:hover{
-    background-image: url(/img/VectorLeftOrange.png);
+    background-image: url(./img/VectorLeftOrange.png);
 }
 .sign-after{
     padding: 38px 34px;
-    background-image: url(/img/VectorRightGray.png);
+    background-image: url(./img/VectorRightGray.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color:rgb(30, 37, 43);
     margin-left: 108px;
 }
 .sign-after:hover{
-    background-image: url(/img/VectorRightOrange.png);
+    background-image: url(./img/VectorRightOrange.png);
 }
 .testimonial-content-wrap{
     display: flex;
@@ -412,13 +400,13 @@ ul{
 }
 
 .testimonial-wrap-desc{
-    background-image: url(/img/richards.png);
+    background-image: url(./img/richards.png);
     background-position: 7% 3%;
     background-repeat: no-repeat;
 }
 
 .testimonial-wrap-bg{
-    background-image: url(/img/Ronald.png);
+    background-image: url(./img/Ronald.png);
     width: 399px;
     height: 492px;
     display: flex;
@@ -498,8 +486,6 @@ ul{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0em;
     color:rgba(255, 255, 255, 0.78);
     background: transparent;
     transition: all 0.3s ease;
@@ -647,7 +633,7 @@ footer{
 
 .hero{
     padding-top: 104px;
-    background-image: url('img/header-right.png');
+    background-image: url('./img/header-right.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -668,7 +654,7 @@ footer{
     height: 24px;
     content: "";
     display: inline-block;
-    background-image: url('img/search.png');
+    background-image: url('./img/search.png');
     background-repeat: no-repeat;
 }
 .hero-wrap-text::placeholder{
