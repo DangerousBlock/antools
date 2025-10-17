@@ -12,4 +12,4 @@ antools.
 
 ### Author
 
-- Daniil Moiseev
+- Daniil Moiseiev
